@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-rows: minmax(18px, auto);
+}
+
+.cards{
+    background-color: black;
+    color: aqua;
+    border: 5px solid aqua;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
